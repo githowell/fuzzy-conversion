@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lenght Conversion Calculator</title>
+    <link rel="stylesheet" href="stylecalc.css" class="rel">
+
+</head>
+
+<body>
+
+    <div class="container">
+    <h1>Lenght Conversion Calculator</h1>
+
+    <label for="inputValue">Enter Distance:</label>
+    
+    <input type="text" id="inputValue">
+
+    <select id="unitForm">
+
+      <option value="Inches">Inches (in)</option>
+      <option value="Feet">Feet (ft)</option>
+      <option value="Yard">Yard (yd)</option>
+
+    </select>
+
+    <button onclick="convert()">Convert</button>
+  
+    <h2>Results:</h2>
+
+    <p>In Millimeter: <span id="resultMillimeters"></span></p>
+    <p>In Centimeters: <span id="resultCentimeters"></span></p>
+    <p>In Meters: <span id="resultMeters"></span></p>
+    </div>
+  
+  <script src="scriptcalc.js"></script>
+</body>
+</html>
